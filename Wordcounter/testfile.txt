@@ -1,0 +1,4 @@
+
+2
+down vote
+The %s is known as a format specifier, specifically for strings. As the discussion on data types continues throughout this book, you take a look at several more, each specific to its given data type. Every specifier acts as a placeholder for that type in the string; and after the string, the % sign outside of the string indicates that after it, all of the values to be inserted into the format specifier will be presented there to be used in the string. You may notice the parentheses. This tells the string that it should expect to see a sequence that contains the values to be used by the string to populate its format specifiers. A simpler way to think of it is to imagine that the %s is a storage bin that holds the value in the parentheses. If you want to do more than one value, you would simply add another format specifier, in this manner:
